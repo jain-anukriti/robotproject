@@ -41,6 +41,9 @@ MySecTest
 MyThirdTest
     Log     I'm in ${TEST_NAME} 
 
+MyFourthTest
+    Log     I'm in ${TEST_NAME} 
+    
 *** Keywords ***
 GoToURL
     Open Browser    ${URL}    chrome
